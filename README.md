@@ -26,4 +26,4 @@ To use the Connection Analyzer, follow these steps:
 
 4. Run the Script: Execute the script by providing the pcap file as a command-line argument. For example:
 
-   python3 a2.py sample-capture-file.cap
+   python3 connection-analyzer.py sample-capture-file.cap
