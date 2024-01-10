@@ -5,7 +5,7 @@ It processes TCP connections and provides statistics and details about each conn
 bytes sent, connection duration, and more. The script uses the `packet_struct` module to parse packet headers and extract 
 relevant information.
 
-Features
+## Features
 
 - Parses pcap files to extract packet data.
 - Identifies TCP connections and analyzes their properties.
@@ -13,7 +13,7 @@ Features
 - Provides detailed statistics for complete connections, including connection duration, packet counts, and window size.
 - Reports on the total number of connections, completed connections, reset connections, and open connections in the pcap file.
 
-Usage
+## Usage
 
 To use the Connection Analyzer, follow these steps:
 
@@ -25,5 +25,5 @@ To use the Connection Analyzer, follow these steps:
 3. Capture File: Prepare a pcap (Packet Capture) file that contains network packet data you want to analyze.
 
 4. Run the Script: Execute the script by providing the pcap file as a command-line argument. For example:
-
+   ```bash
    python3 connection-analyzer.py sample-capture-file.cap
